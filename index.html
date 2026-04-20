@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Stage Connect</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f0e8;
+  color: #2f241c;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #2f241c, #3b2f27);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero img {
+  width: 140px;
+  border-radius: 20px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.slogan {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #e6b17e;
+}
+
+/* SECTIONS */
+.container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* STEPS */
+.steps {
+  background: white;
+  padding: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.step {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+/* BUTTONS */
+.buttons {
+  text-align: center;
+  margin: 40px;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  background: #2f241c;
+  color: white;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #e6b17e;
+  color: black;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+
+  <!-- TON LOGO -->
+  <img src="logo.png" alt="Stage Connect Logo">
+
+  <div class="title">STAGE CONNECT</div>
+
+  <div class="slogan">
+    Connecter les talents de demain aux opportunités d’aujourd’hui
+  </div>
+
+</div>
+
+<!-- DESCRIPTION -->
+<div class="container">
+
+  <h2>Notre plateforme</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>🎓 Étudiants</h3>
+      <p>
+        Trouvez des stages adaptés à votre profil, développez vos compétences
+        et construisez votre avenir professionnel.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🏢 Entreprises</h3>
+      <p>
+        Accédez à des profils qualifiés et recrutez les meilleurs talents
+        pour vos projets et stages.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- COMMENT ÇA MARCHE -->
+<div class="steps">
+
+  <h2>Comment ça marche ?</h2>
+
+  <div class="step">1️⃣ Créer un compte</div>
+  <div class="step">2️⃣ Compléter votre profil</div>
+  <div class="step">3️⃣ Trouver ou publier des opportunités</div>
+
+</div>
+
+<!-- ACTION -->
+<div class="buttons">
+
+  <button onclick="alert('Connexion bientôt ajoutée')">Se connecter</button>
+  <button onclick="alert('Inscription bientôt ajoutée')">S'inscrire</button>
+
+</div>
+
+</body>
+</html>
